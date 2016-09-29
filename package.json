@@ -1,0 +1,20 @@
+{
+  "name": "webpack-example",
+  "author": "Joey Fang",
+  "description": "webpack base example",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-util": "^3.0.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">6.7.0"
+  },
+  "scripts": {
+    "build": "gulp build"
+  }
+}
