@@ -37,7 +37,7 @@ gulp.task("app:start", function () {
       colors: true
     }
   });
-  var host = "0.0.0.0" || 8080;
+  var host = argv.host || "0.0.0.0";
   var port = argv.port || 8080;
   server.listen(port, host, function () {
     var app = server.listeningApp;
